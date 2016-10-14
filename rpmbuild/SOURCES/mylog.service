@@ -1,0 +1,10 @@
+[Unit]
+Description=mylog
+After=syslog.target
+ 
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/mylog
+ 
+[Install]
+WantedBy=multi-user.target

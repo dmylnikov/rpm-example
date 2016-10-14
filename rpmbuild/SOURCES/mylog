@@ -1,0 +1,3 @@
+#!/bin/sh
+df | logger -t mylog
+logger -t mylog " "

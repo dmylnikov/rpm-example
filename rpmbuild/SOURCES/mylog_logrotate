@@ -1,0 +1,8 @@
+/var/log/mylog.log {    
+    hourly    
+    rotate 7
+    missingok
+    notifempty
+    compress
+    size 1024M
+}
